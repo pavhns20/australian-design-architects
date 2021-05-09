@@ -1,0 +1,637 @@
+﻿* {
+  margin: 0em;
+  padding: 0em;
+  font-size: 100%;
+  border-style: none;
+  list-style-type: none;
+}
+body {
+  background-color: #fafbfb;
+}
+
+body p,
+a,
+li {
+  font-family: "Poppins";
+  font-size: 16px;
+}
+body p {
+  max-width: 770px;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Merriweather", "Playfair Display", serif;
+  color: #172b39;
+  line-height: 1.2;
+  font-weight: 300;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 23px;
+  text-transform: uppercase;
+  /* color: #41632F;  */
+}
+h3 {
+  font-size: 20px;
+  color: #41632f;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 18px;
+  color: #5C8737;
+  text-transform: uppercase;
+}
+p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  color: #172b39;
+}
+#upper {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  display: flex;
+  padding-bottom: 50px;
+  width: 1200px;
+}
+.logo {
+  width: 200px;
+  height: 150px;
+  margin-right: 0px;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 50px;
+  width: 900px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+nav li {
+  padding: 0 10px;
+}
+
+nav a {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #172b39;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #41632f;
+  text-decoration: none;
+  border-bottom: 3px solid #41632f;
+  cursor: pointer;
+}
+nav .sub_menu {
+  position: absolute;
+  width: 600px;
+  left: 0px;
+  top: 0px;
+  margin-top: 26px;
+  background: none;
+  padding: 10px;
+  padding-left: 6px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  /* background-color: none; */
+  justify-content: space-around;
+  line-height: 24px;
+  visibility: hidden;
+}
+nav .sub_menu .col img {
+  height: 80px;
+  width: 120px;
+}
+#port:hover .sub_menu {
+  visibility: visible;
+}
+
+#socials ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+}
+#socials li {
+  padding: 1px;
+}
+/* #socials img{
+	justify-content: center;
+	align-items: center;
+} */
+#current {
+   color: #5C8737;
+  /* color: #71a643; */
+}
+#current:hover {
+  border-bottom: hidden;
+}
+/* I would like this to mirror the main nav look- try to fix this */
+/* #current-1 p:hover {
+  color: #71a643;
+  border-bottom: 3px solid #41632f;
+  
+}
+#current-2 a:hover {
+  color: #71a643;
+  border-bottom: 3px solid #41632f;
+}
+#current-3 a:hover {
+  color: #71a643;
+  border-bottom: 3px solid #41632f;
+}
+#current-4 a:hover {
+  color: #71a643;
+  border-bottom: 3px solid #41632f;
+} */
+
+/* to here */
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: #172b39;
+  background-color: rgba(65, 99, 47, 0.75);
+  margin: auto;
+  width: 800px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#main-wrapper {
+  /* background-color: #41632f; */
+  margin: auto;
+  padding: 20px 150px 20px 150px;
+  width: 800px;
+}
+figure {
+  width: 800px;
+  margin: auto;
+}
+
+figure figcaption {
+  text-align: center;
+  margin-top: 20px;
+  color: #172b39;
+}
+figure h1 {
+  /* font-size: 39px; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#hidden-h2 {
+  display: none;
+}
+
+#fade {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 20px;
+}
+.comm-1,
+.comm-2 {
+  /* width: 220px;  */
+  text-align: center;
+}
+.img-fade {
+  width: 250px;
+}
+.slideshow-container {
+  width: 250px;
+  height: 300px;
+}
+
+#more-1,
+#more-2 {
+  margin-top: 40px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#more-1 p {
+  margin-right: 40px;
+}
+#more-2 p {
+  margin-left: 40px;
+}
+#more-2 {
+  margin-bottom: 0px;
+}
+#team,
+.awards-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#team p,
+.awards-list p {
+  margin-top: 10px;
+}
+#team h3,
+.awards-list h3 {
+  margin-top: 0px;
+}
+
+.staff-info-1,
+.staff-info-3,
+.staff-info-5 {
+  margin-left: 40px;
+}
+
+.staff-info-2,
+.staff-info-4,
+.staff-info-6,
+.accolades {
+  margin-right: 40px;
+}
+.awards-list h5 {
+  margin-top: 10px;
+}
+.awards-list h4 {
+  font-size: 14px;
+}
+
+/* 
+main {
+  display: flex;
+  flex-direction: column;
+} */
+/* .staff {
+  display: flex;
+  justify-content: space-evenly;
+}  */
+
+/* .fade {
+  -webkit-animation-name: crossfade;
+  -webkit-animation-duration: 6.5s;
+  animation-name: fade;
+  animation-duration: 6.5s;
+} 
+
+ @-webkit-keyframes crossfade {
+  from {opacity: .1}
+  to {opacity: 1}
+} 
+
+ @keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}  */
+/* figure img{
+	margin: auto;
+} */
+
+.contact-hero img {
+  margin: auto;
+  height: 100%;
+}
+#contact-details {
+  background-color: transparent;
+  width: 300px;
+  padding-bottom: 40px;
+}
+.contact-h1 {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+address {
+  font-size: 20px;
+  font-family: "Merriweather";
+  color: #fff;
+  font-style: normal;
+  font-weight: 300;
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  /* float: left; */
+}
+address a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 300;
+  font-family: "Merriweather";
+}
+#contact-details a {
+  width: 250px;
+  color: #fff;
+  text-decoration: none;
+}
+#contact-details p {
+  width: 250px;
+  color: #fff;
+  margin-left: 10%;
+}
+#googleMap {
+  width: 250px;
+}
+#contact-form {
+  width: 350px;
+  padding-top: 40px;
+  /* zheight: 200px; */
+  background-color: rgba(0, 0, 0, 0.1);
+  /* margin-left: 50%; */
+  /* background-image: url(images/wall_large.jpg); */
+}
+
+#contact {
+  width: 800px;
+  margin-top: 50px;
+  margin: auto;
+  /* zdisplay: flex; */
+  /* justify-content: space-between; */
+  background-image: url(images/wall_large.jpg);
+}
+#image-overlay {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: rgba(23, 43, 57, 0.85);
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+#contact-form,
+#googleMap,
+#contact-details {
+  align-items: center;
+}
+#lname,
+#fname,
+#mobile,
+#email,
+#message,
+#submit {
+  margin-left: 0px;
+  padding-top: 12px;
+  /* border-bottom: 3px #fff; */
+}
+label {
+  padding-top: 12px;
+  margin-top: 5px;
+  font-family: "Poppins";
+  color: #fff;
+}
+#mobile {
+  padding-top: 12px;
+}
+
+input {
+  margin-top: 8px;
+  padding-top: 12px;
+  width: 90%;
+  font-family: "Poppins";
+  margin-right: 10px;
+  border: 1px solid #ccc;
+   color: #fff;
+  background-color: transparent;
+}
+
+textarea {
+  background-color: transparent;
+  font-family: "Poppins";
+  min-width: 90%;
+  max-width: 90%;
+  border: 1px solid #ccc;
+}
+#submit {
+  background-color: transparent;
+  width: 200px;
+  border: 1px solid #ccc;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #fff;
+}
+
+/* #enter {
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  background-color: #41632f;
+} */
+/* #googleMap{
+  width: 300px;
+  height: 300px;
+} */
+
+footer {
+  width: 100%;
+  margin: auto;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  height: 80px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer li {
+  font-size: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+footer a {
+  color: #172b39;
+  font-size: 12px;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #41632f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.team {
+  display: flex;
+}
+.team h2,
+.accolade-info-1 h2 {
+  margin-bottom: 5px;
+}
+.team h3,
+.accolade-info-1 h3 {
+  font-size: 18px;
+  color: #41632f;
+}
+#timber,
+#timber1 {
+  display: flex;
+  width: 770px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+}
+/* .sketch {
+  padding: 10px;
+  box-shadow: none;
+} */
+#project-design,
+#project-design2 {
+  margin-top: 30px;
+}
+#pro-res {
+  display: flex;
+}
+#pro-res img {
+  margin: 3px;
+}
+.pro-info{
+  display: flex;
+}
+
+/* main img:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 1.3px 1.9px rgba(0, 0, 0, 0.042), 0 31.8px 23.4px rgba(0, 0, 0, 0.086),
+    0 50px 40px rgba(0, 0, 0, 0.12);
+} */
+
+main img,
+#main-wrapper img,
+nav .sub_menu .col img,
+.contact-hero img {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* main img {
+  transition: transform 0.7s ease-in-out;
+}
+main img:hover {
+  transform: scale(1.1);
+} 
+#timber img {
+  padding: 0px;
+  box-shadow: 0 0 0 0px;
+  transform: scale(1);
+}
+#over .logo:hover {
+  box-shadow: none;
+}
+/* Position the image container (needed to position the left and right arrows) */
+#res-slideshow-container,
+#int-slideshow-container,
+#com-slideshow-container,
+#rest-slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.7);
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  opacity: 0.8;
+  /* background-color: rgba(65, 99, 47, 0.75); */
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#caption {
+  /* #int-caption, #com-caption { */
+  color: #fff;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.legal-h3{
+  line-height: 1.5em;
+padding-top: 10px;
+margin-top: 10px;
+}

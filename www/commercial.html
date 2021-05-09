@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>
+      Australian Design Architects, multiple award-winning architects and
+      leaders in sustainable, environmentally aware building and design.
+      Commercial Page.
+    </title>
+
+    <meta
+      name="author"
+      content="   Paul Harvey paul.harvey23@studytafensw.edu.au   "
+    />
+
+    <link rel="stylesheet" href="ada.css" />
+    <!-- <link rel="stylesheet" href="main.js"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div id="upper">
+      <header>
+        <img
+          class="logo"
+          src="images/ada-logo.svg"
+          width="200"
+          height="150"
+          alt="Australian Design Architects logo"
+        />
+
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+              <div id="port">
+                <a href="portfolio.html" id="current">PORTFOLIO</a>
+                <div class="sub_menu">
+                  <div class="col">
+                    <a href="residential.html">
+                      <img src="images/res-part1-1.jpg" alt="apartment3" />
+                      <p>Residential</p></a
+                    >
+                  </div>
+                  <div class="col">
+                    <a href="interiors.html">
+                      <img src="images/int-part3-1.jpg" alt="interiors" />
+                      <p>Interiors</p></a
+                    >
+                  </div>
+                  <div class="col">
+                    <a href="commercial.html">
+                      <img
+                        src="images/com-part1-3.jpg"
+                        alt="commercial building"
+                      />
+                      <p>Commercial</p></a
+                    >
+                  </div>
+                  <div class="col">
+                    <a href="restoration.html">
+                      <img src="images/rest2.jpg" alt="restoration project" />
+                      <p>Restoration</p></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li><a href="project_design.html">PROJECT DESIGN</a></li>
+            <li><a href="awards.html">AWARDS</a></li>
+            <li><a href="about_us.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="socials">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/australian_design_architects"
+                ><img
+                  src="images/facebook_logo1.svg"
+                  width="32"
+                  height="32"
+                  alt="Facebook logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/australian_design_architects"
+                ><img
+                  src="images/instagram_logo1.svg"
+                  width="32"
+                  height="32"
+                  alt="instagram logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.pinterest.com/australian_design_architects"
+                ><img
+                  src="images/pinterest_logo1.svg"
+                  width="32"
+                  height="32"
+                  alt="pinterestlogo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <hr />
+    <div id="main-wrapper">
+      <main>
+        <h1>Portfolio | Commercial</h1>
+
+        <div id="com-slideshow-container">
+          <div class="mycomSlides">
+            <div class="numbertext">1 / 6</div>
+            <img
+              src="images/com-part1-1.jpg"
+              width="800"
+              height="514"
+              alt="Wharf Restaurant & Bar"
+            />
+          </div>
+
+          <div class="mycomSlides">
+            <div class="numbertext">2 / 6</div>
+            <img
+              src="images/com-part1-2.jpg"
+              width="800"
+              height="514"
+              alt="Wharf Restaurant & Bar"
+            />
+          </div>
+
+          <div class="mycomSlides">
+            <div class="numbertext">3 / 6</div>
+            <img
+              src="images/com-part1-3.jpg"
+              width="800"
+              height="514"
+              alt="Wharf Restaurant & Bar"
+            />
+          </div>
+
+          <div class="mycomSlides">
+            <div class="numbertext">4 / 6</div>
+            <img
+              src="images/com-part2-1.jpg"
+              width="800"
+              height="514"
+              alt="New Zealand Hotel"
+            />
+          </div>
+
+          <div class="mycomSlides">
+            <div class="numbertext">5 / 6</div>
+            <img
+              src="images/com-part2-2.jpg"
+              width="800"
+              height="514"
+              alt="New Zealand Hotel"
+            />
+          </div>
+
+          <div class="mycomSlides">
+            <div class="numbertext">6 / 6</div>
+            <img
+              src="images/com-part2-3.jpg"
+              width="800"
+              height="514"
+              alt="New Zealand Hotel"
+            />
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&lt;</a>
+          <a class="next" onclick="plusSlides(1)">&gt;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/com-part1-1.jpg"
+                width="100%"
+                onclick="currentSlide(1)"
+                alt="Wharf Restaurant & Bar"
+              />
+            </div>
+
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/com-part1-2.jpg"
+                width="100%"
+                onclick="currentSlide(2)"
+                alt="Wharf Restaurant & Bar"
+              />
+            </div>
+
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/com-part1-3.jpg"
+                width="100%"
+                onclick="currentSlide(3)"
+                alt="Wharf Restaurant & Bar"
+              />
+            </div>
+
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/com-part2-1.jpg"
+                width="100%"
+                onclick="currentSlide(4)"
+                alt="New Zealand Hotel"
+              />
+            </div>
+
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/com-part2-2.jpg"
+                width="100%"
+                onclick="currentSlide(5)"
+                alt="New Zealand Hotel"
+              />
+            </div>
+
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/com-part2-3.jpg"
+                width="100%"
+                onclick="currentSlide(6)"
+                alt="New Zealand Hotel"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <hr />
+    <footer>
+      <ul>
+        <li>&copy; Australian Design Architects 2019-2021</li>
+        <li><a href="contact.html">Email</a></li>
+        <li>
+          <a href="https://www.facebook.com/australian_design_architects"
+            ><img
+              src="images/facebook_logo1.svg"
+              width="32"
+              height="32"
+              alt="Facebook logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/australian_design_architects"
+            ><img
+              src="images/instagram_logo1.svg"
+              width="32"
+              height="32"
+              alt="instagram logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.pinterest.com/australian_design_architects"
+            ><img
+              src="images/pinterest_logo1.svg"
+              width="32"
+              height="32"
+              alt="pinterest logo"
+          /></a>
+        </li>
+
+        <li><a href="legals.html">Legals</a></li>
+      </ul>
+    </footer>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mycomSlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
+  </body>
+</html>

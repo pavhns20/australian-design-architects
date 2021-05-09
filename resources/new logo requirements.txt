@@ -1,0 +1,7 @@
+
+include a pdf or eps file for the new ada logo
+
+ensure 300 dpi
+
+save it in the resources folder
+

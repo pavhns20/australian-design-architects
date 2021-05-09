@@ -1,0 +1,11 @@
+Sample coding for address info on contact page
+
+<address>
+XYZ Company Ltd<br>
+123 Coding Lane<br>
+SUBURBVILLE NSW 2123<br>
+Phone: 02 1234 123<br>
+Mobile: 0435 123 456<br>
+Email: info@xyzcompany.com.au<br>
+</address>
+
